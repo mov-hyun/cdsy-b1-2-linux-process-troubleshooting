@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+**/api_keys/
+**/secret.key
+**/*secret*
+**/*token*
+**/*credential*
+
+# Provided assignment binaries and archives
+agent-app-leak/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Runtime artifacts
+nohup.out
+*.pid
+*.sock
+*.tmp
+tmp/
+runtime/
+
+# Generated caches
+.cache/
+__pycache__/
+*.py[cod]
+
+# Local-only evidence scratch space.
+# Curated evidence files under evidence/ should be committed when needed.
+evidence/**/raw/
+evidence/**/tmp/
